@@ -1,9 +1,12 @@
 #bg {
-  background: url(images/bg.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  /* background: url(images/bg.jpg) no-repeat center center fixed; */
+  /* background: no-repeat center center fixed; */
+  /* -webkit-background-size: center;
+  -moz-background-size: center;
+  -o-background-size: center; */
+  /* background-size:contain; */
+  position: fixed;
+  /* top:0% */
 }
 
 @keyframes fadeInAnimation {
@@ -24,11 +27,17 @@
   font-family: monospace;
 }
 #title {
+  /* position: absolute;
+  top:5%;
+  left:20%; */
   margin-top: 1.8em;
   animation: slide 2s forwards;
   transform: translateX(-100%);
 }
 #subtitle {
+  /* position: absolute;
+  top:5%;
+  left:45%; */
   animation: slide 2s forwards;
   transform: translateX(100%);
 }
@@ -58,4 +67,11 @@
   position: absolute;
   left: 40px;
   filter: drop-shadow(0 0 0.75rem hsla(30, 2%, 20%, 0.904));
+}
+
+.info-buttons
+{
+  position:absolute;
+  top:50%;
+  left:45%
 }
