@@ -94,4 +94,7 @@
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
   font-weight: bolder;
+  font-weight: bolder;
+  background: #111;
+  opacity: 0.5;
 }
