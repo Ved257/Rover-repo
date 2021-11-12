@@ -79,6 +79,7 @@
   position: absolute;
   top: 40%;
   left: 30%;
+  ;
 }
 #b1,
 #b2,
@@ -96,5 +97,6 @@
   font-weight: bolder;
   font-weight: bolder;
   background: #111;
-  opacity: 0.5;
+  opacity: 0.75;
+  color: #fff;
 }
