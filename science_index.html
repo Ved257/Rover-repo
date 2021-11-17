@@ -21,15 +21,41 @@
       <a class="nav-item nav-link" href="control_index.html">CONTROL </a>
       <a class="nav-item nav-link active" href="science_index.html">SCIENCE </a>
       <a class="nav-item nav-link" href="autonomous_index.html">AUTONOMOUS </a>
+      <button type="button" class="btn btn-danger">STOP</button>
     </nav>
 
     <h1 id="title"><span>Science</span></h1>
+    <div class="first">
+      <label for="ph" class="l1">PH Sensor</label>
+      <input type="text" id="ph" value="Click to enter value" />
+
+      <label for="CO2 " class="l1">CO<sub>2</sub> Sensor</label>
+      <input type="text" id="co2" value="Click to enter value" />
+
+      <label for="temp" class="l1">Temperature Sensor</label>
+      <input type="text" id="temp" value="Click to enter value" />
+    </div>
+    <br />
+    <br />
+
+    <div class="second">
+      <label for="humidity" id="l1">Humidity Sensor</label>
+      <input type="text" id="humidity" value="Click to enter value" />
+
+      <label for="thermal ">Thermal Sensor</label>
+      <input type="text" id="thermal" value="Click to enter value" />
+      <label for="spectro">Spectrophotometer Sensor</label>
+      <input type="text" id="spectro" value="Click to enter value" />
+    </div>
+    <br />
+    <button class="graph">Spectrometric Graph</button>
   </body>
+  <script src="science_script.js"></script>
   <script src="three.r119.min.js"></script>
   <script src="vanta.net.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 		  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->
-  <script>
+  <!-- <script>
     VANTA.NET({
       el: "#bg",
       mouseControls: true,
@@ -43,5 +69,5 @@
       points: 12.0,
       spacing: 20.0,
     });
-  </script>
+  </script> -->
 </html>

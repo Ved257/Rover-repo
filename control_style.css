@@ -14,3 +14,8 @@
 .nav {
   background-color: #343a40;
 }
+.btn {
+  color: black;
+  font-size: x-large;
+  font-weight: 500;
+}

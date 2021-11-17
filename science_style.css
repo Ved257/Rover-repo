@@ -14,3 +14,35 @@
 .nav {
   background-color: #343a40;
 }
+
+.first {
+  text-align: center;
+}
+.second {
+  margin-left: 1.3%;
+}
+label {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  color: darkblue;
+}
+
+input {
+  margin-right: 3.5%;
+  border-width: 3px;
+}
+
+.graph {
+  border-radius: 5px;
+  margin-top: 1%;
+  margin-left: 5%;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.btn {
+  color: black;
+  font-size: x-large;
+  font-weight: 500;
+}
