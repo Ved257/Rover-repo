@@ -15,4 +15,20 @@ if (typeof (document) !== "undefined") {
     function getValue(button){
         button.value=prompt("Enter a value:");
     }
+    const start=document.getElementById("start");
+    const stop=document.getElementById("stop");
+    start.addEventListener("click",start_act);
+    stop.addEventListener("click",stop_act);
+
+    function start_act(){
+        document.getElementById("stop").style.display='block';
+        document.getElementById("start").style.display='none';
+
+    }
+     function stop_act(){
+        document.getElementById("stop").style.display='none';
+        document.getElementById("start").style.display='block';
+
+    }
+
 }

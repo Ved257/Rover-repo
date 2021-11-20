@@ -19,3 +19,18 @@
   font-size: x-large;
   font-weight: 500;
 }
+.btn1,
+.btn2 {
+  position: absolute;
+  margin-top: 4%;
+  right: 2%;
+  top: 0;
+  width: 100px;
+  height: 45px;
+  font-size: 26px;
+  font-weight: bolder;
+  color: black;
+}
+#stop {
+  display: none;
+}
