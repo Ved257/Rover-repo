@@ -22,50 +22,42 @@
       <a class="nav-item nav-link" href="control_index.html">CONTROL </a>
       <a class="nav-item nav-link active" href="science_index.html">SCIENCE </a>
       <a class="nav-item nav-link" href="autonomous_index.html">AUTONOMOUS </a>
-      <button
-        type="button"
-        id="stop"
-        class="btn2 btn-danger"
-        style="display: none"
-      >
-        STOP
-      </button>
+      <button type="button" id="stop" class="btn2 btn-danger">STOP</button>
       <button type="button" id="start" class="btn1 btn-danger">START</button>
     </nav>
 
     <!-- <h1 id="title"><span>Science</span></h1> -->
-    <br>
-    <br>
-    <br>
-  <div class="grid-container">
+    <br />
+    <br />
+    <br />
+    <div class="grid-container">
+      <div class="first">
+        <div class="row align-items-start">
+          <label for="ph " class="col">PH Sensor</label>
+          <input type="text" id="ph" value="Enter Value" />
 
-    <div class="first">
-      <div class="row align-items-start">
-        <label for="ph " class="col">PH Sensor</label>
-        <input type="text" id="ph" value="Enter Value" />
-  
-        <label for="CO2 " class="col">CO<sub>2</sub> Sensor</label>
-        <input type="text" id="co2" value="Enter Value" />
-  
-        <label for="temp" class="col">Temperature Sensor</label>
-        <input type="text" id="temp" value="Enter Value" />
+          <label for="CO2 " class="col">CO<sub>2</sub> Sensor</label>
+          <input type="text" id="co2" value="Enter Value" />
+
+          <label for="temp" class="col">Temperature Sensor</label>
+          <input type="text" id="temp" value="Enter Value" />
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="second">
+        <div class="row align-items-start">
+          <label for="humidity" class="col">Humidity Sensor</label>
+          <input type="text" id="humidity" value="Enter Value" />
+
+          <label for="thermal " class="col">Thermal Sensor</label>
+          <input type="text" id="thermal" value="Enter Value" />
+          <label for="spectro" class="col">Spectrophotometer Sensor</label>
+          <input type="text" id="spectro" value="Enter Value" />
+        </div>
       </div>
     </div>
-<br>
-<br>
-    <div class="second">
-      <div class="row align-items-start">
-        <label for="humidity" class="col">Humidity Sensor</label>
-        <input type="text" id="humidity" value="Enter Value" />
-
-        <label for="thermal " class="col">Thermal Sensor</label>
-        <input type="text" id="thermal" value="Enter Value" />
-        <label for="spectro" class="col">Spectrophotometer Sensor</label>
-        <input type="text" id="spectro" value="Enter Value" />
-      </div>
-    </div>
-  </div>
-  <br/>
+    <br />
     <button class="graph">Spectrometric Graph</button>
     <div id="graph">
       <script>
@@ -103,6 +95,7 @@
     </div>
   </body>
   <script src="science_script.js"></script>
+  <script src="button.js"></script>
   <script src="three.r119.min.js"></script>
   <script src="vanta.net.min.js"></script>
   <script src="https://github.com/plotly/plotly.js.git"></script>

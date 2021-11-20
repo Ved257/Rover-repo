@@ -3,7 +3,6 @@ if (typeof (document) != "undefined") {
     const stop=document.getElementById("stop");
     start.addEventListener("click",start_act);
     stop.addEventListener("click",stop_act);
-
     function start_act(){
         stop.style.display='block';
         start.style.display='none';
