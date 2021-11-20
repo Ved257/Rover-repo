@@ -21,13 +21,13 @@ if (typeof (document) !== "undefined") {
     stop.addEventListener("click",stop_act);
 
     function start_act(){
-        document.getElementById("stop").style.display='block';
-        document.getElementById("start").style.display='none';
+        stop.style.display='block';
+        start.style.display='none';
 
     }
      function stop_act(){
-        document.getElementById("stop").style.display='none';
-        document.getElementById("start").style.display='block';
+        start.style.display='block';
+        stop.style.display='none';
 
     }
 
