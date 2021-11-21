@@ -12,6 +12,8 @@
       charset="utf-8"
     />
     <link rel="stylesheet" href="science_style.css" />
+    <script src="plotly-basic.min.js"></script>
+
     <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
   </head>
 
@@ -65,15 +67,15 @@
       </div>
     </div>
     <br />
-    <button class="graph">Spectrometric Graph</button>
-    <div id="graph">
+    <button id="graph">Spectrometric Graph</button>
+    <div id="live-graph" style="display: none; width: 100vw; margin: 0 auto">
       <script>
         function getData() {
           return Math.random();
         }
         var trace1 = {
-          x: [],
-          y: [],
+          // x: [],
+          y: [[getData()]],
           mode: "lines",
           type: "scatter",
           name: "Spectrometric Data",
@@ -88,16 +90,27 @@
             title: "Intensity (a.u.)",
           },
         };
-        Plotly.newPlot("graph", data, layout);
+        Plotly.plot(
+          "live-graph",
+          // [
+          //   {
+          //     y: [getData()],
+          //     type: "line",
+          //     name: "Spectrometric Data",
+          //   },
+          // ],
+          data,
+          layout
+        );
         setInterval(function () {
           Plotly.extendTraces(
-            "graph",
+            "live-graph",
             {
               y: [[getData()]],
             },
             [0]
           );
-        }, 1000);
+        }, 700);
       </script>
     </div>
   </body>
@@ -105,7 +118,7 @@
   <script src="button.js"></script>
   <script src="three.r119.min.js"></script>
   <script src="vanta.net.min.js"></script>
-  <script src="https://github.com/plotly/plotly.js.git"></script>
+  <!-- <script src="https://github.com/plotly/plotly.js.git"></script> -->
 
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
 		  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->

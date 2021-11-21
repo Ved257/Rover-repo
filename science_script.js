@@ -30,5 +30,15 @@ if (typeof (document) !== "undefined") {
     //     stop.style.display='none';
 
     // }
-
+    const graph_btn=document.getElementById("graph");
+    const lgraph=document.getElementById("live-graph")
+    graph_btn.addEventListener("click",displayGraph);
+    function displayGraph(){
+        if(lgraph.style.display==='none'){
+            lgraph.style.display='block';
+        }
+        else{
+            lgraph.style.display='none';
+        }
+    }
 }

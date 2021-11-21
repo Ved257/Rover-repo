@@ -38,9 +38,9 @@ input {
   padding: 8px 20px;
 }
 
-.graph {
+#graph {
   border-radius: 5px;
-  margin-top: 1%;
+  /* margin-top: 0.8%; */
   margin-left: 5%;
   font-size: large;
   font-family: "Times New Roman", Times, serif;
