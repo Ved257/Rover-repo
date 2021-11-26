@@ -38,13 +38,23 @@
       <button type="button" id="start" class="btn1 btn-danger">START</button>
     </nav>
     <!-- <h1 id="title"><span>Control</span></h1> -->
+    <div class="rover">
+      <img id="rover_compass" src="/compass.jpg" alt="compass for rover" />
+      <img id="rover_needle" src="/needle.jpg" alt="needle image" />
+      <input type="button" id="rover_btn" value="Rover" />
+    </div>
+    <div class="robotic_arm">
+      <img id="robo_compass" src="/compass.jpg" alt="compass for robotic arm" />
+      <img id="robo_needle" src="/needle.jpg" alt="needle image" />
+      <input type="button" id="robo_btn" value="Robotic_arm" />
+    </div>
   </body>
-  <!-- <script src="control_script.js"></script> -->
+  <script src="control_script.js"></script>
   <script src="button.js"></script>
   <script src="three.r119.min.js"></script>
   <script src="vanta.net.min.js"></script>
 
-  <script>
+  <!-- <script>
     VANTA.NET({
       el: "#bg",
       mouseControls: true,
@@ -58,5 +68,5 @@
       points: 12.0,
       spacing: 20.0,
     });
-  </script>
+  </script> -->
 </html>

@@ -31,7 +31,7 @@ if (typeof (document) !== "undefined") {
 
     // }
     const graph_btn=document.getElementById("graph");
-    const lgraph=document.getElementById("live-graph")
+    const lgraph=document.getElementById("live-graph");
     graph_btn.addEventListener("click",displayGraph);
     function displayGraph(){
         if(lgraph.style.display==='none'){
