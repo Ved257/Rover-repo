@@ -40,20 +40,90 @@
     <!-- <h1 id="title"><span>Control</span></h1> -->
     <div>
       <div class="rover" style="display: inline-block">
-        <img id="rover_compass" src="/compass.jpg" alt="compass for rover" />
-        <img id="rover_needle" src="/needle.jpg" alt="needle image" />
+        <img id="rover_compass" src="./compass.jpg" alt="compass for rover" />
+        <img id="rover_needle" src="./needle.jpg" alt="needle image" />
         <input type="button" id="rover_btn" value="Rover" />
       </div>
       <div class="robotic_arm" style="display: inline-block">
         <img
           id="robo_compass"
-          src="/compass.jpg"
+          src="./compass.jpg"
           alt="compass for robotic arm"
         />
-        <img id="robo_needle" src="/needle.jpg" alt="needle image" />
+        <img id="robo_needle" src="./needle.jpg" alt="needle image" />
         <input type="button" id="robo_btn" value="Robotic_arm" />
       </div>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="accelerometer">
+              <h5>Accelerometer</h5>
+              <form>
+                <div class="form-group">
+                  <label>X</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="x_value"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Y</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="y_value"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Z</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="z_value"
+                    placeholder="0"
+                  />
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="gyroscope">
+          <h5>Gyroscope</h5>
+                        <form>
+                <div class="form-group">
+                  <label>X</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="x_value"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Y</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="y_value"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Z</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="z_value"
+                    placeholder="0"
+                  />
+                </div>
+              </form>
+        </div>
+        </div>
+      </div>
   </body>
   <script src="control_script.js"></script>
   <script src="button.js"></script>

@@ -83,3 +83,13 @@
   width: 9%;
   font-weight: 600;
 }
+
+.accelerometer{
+  position: absolute;
+  right: 30%;
+}
+
+.gyroscope{
+  position: absolute;
+  right: 10%;
+}
