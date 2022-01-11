@@ -42,7 +42,7 @@
       <div class="rover" style="display: inline-block">
         <img id="rover_compass" src="./compass.jpg" alt="compass for rover" />
         <img id="rover_needle" src="./needle.jpg" alt="needle image" />
-        <input type="button" id="rover_btn" value="Rover" />
+        <input type="number" id="rover_btn" placeholder="Rover" onkeydown="rot1(this)"/>
       </div>
 
       <div class="robotic_arm" style="display: inline-block">
@@ -52,7 +52,7 @@
           alt="compass for robotic arm"
         />
         <img id="robo_needle" src="./needle.jpg" alt="needle image" />
-        <input type="button" id="robo_btn" value="Robotic_arm" />
+        <input type="number" id="robo_btn" placeholder="Robotic_arm" onkeydown="rot2(this)" />
       </div>
     </div>
     <div class="container">
@@ -63,16 +63,17 @@
                 <div class="form-group">
                   <label>X</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     id="x_value"
                     placeholder="0"
+                    onkeyup="myfunction()"
                   />
                 </div>
                 <div class="form-group">
                   <label>Y</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     id="y_value"
                     placeholder="0"
@@ -81,7 +82,7 @@
                 <div class="form-group">
                   <label>Z</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     id="z_value"
                     placeholder="0"
