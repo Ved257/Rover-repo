@@ -9,7 +9,7 @@
 }
 .nav-item:hover {
   color: white;
-  transform: scale(1.6);
+  transform: scale(1.2);
 }
 .nav {
   background-color: #343a40;
@@ -39,21 +39,23 @@
 #rover_compass {
   position: absolute;
   width: 18%;
-  top: 25%;
+  /* top: 25%; */
+  top: 32%;
 }
 
 #robo_compass {
   position: absolute;
   margin-left: 25%;
   width: 18%;
-  top: 25%;
+  /* top: 25%; */
+  top: 32%;
 }
 
 #rover_needle {
   position: fixed;
   width: 1.8%;
   height: 21%;
-  top: 30%;
+  top: 41.1%;
   margin-left: 8%;
   transition: transform 0.9s;
 }
@@ -62,7 +64,7 @@
   position: fixed;
   width: 1.8%;
   height: 21%;
-  top: 30%;
+  top: 41.1%;
   margin-left: 33%;
   transition: transform 0.9s;
 }
@@ -73,38 +75,11 @@ img {
   left: 50%;
 }
 
-#rover_btn {
-  position: fixed;
-  top: 55%;
-  left: 6.5%;
-  border-color: #343a40;
-  border-width: 3px;
-  width: 9%;
-  font-weight: 600;
-  cursor: pointer;
-  touch-action: manipulation;
-  display: block;
-  background: transparent;
-}
-
-#robo_btn {
-  position: fixed;
-  top: 55%;
-  left: 32%;
-  border-color: #343a40;
-  border-width: 3px;
-  width: 9%;
-  font-weight: 600;
-  cursor: pointer;
-  touch-action: manipulation;
-  display: block;
-  background: transparent;
-}
-
 .text {
   position: absolute;
-  bottom: 35%;
-  right: 6.5%;
+  top: 23%;
+  /* bottom: 20%; */
+  right: 6%;
   background-color: black;
   color: white;
   padding-left: 20px;
@@ -113,7 +88,9 @@ img {
 
 .text1 {
   position: absolute;
-  bottom: 35%;
+  top: 23%;
+
+  /* bottom: 20%; */
   right: 33%;
   background-color: black;
   color: white;
@@ -123,8 +100,70 @@ img {
 
 .op {
   position: absolute;
- right:25%;
- top: 15%;
- color: red;
- 
+  right: 25%;
+  top: 15%;
+  color: red;
+}
+
+.input {
+  position: absolute;
+  left: 10%;
+  top: 15%;
+  text-align: center;
+  color: red;
+}
+
+.form-group {
+  top: 20%;
+  color: black;
+  font-size: 20;
+}
+
+#in-title,
+#out-title {
+  font-size: xx-large;
+}
+
+#rover_btn {
+  position: fixed;
+  top: 72%;
+  left: 54%;
+  border-color: #343a40;
+  border-width: 3px;
+  width: 10%;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+  display: block;
+  background: transparent;
+}
+
+#robo_btn {
+  position: fixed;
+  top: 72%;
+  left: 80%;
+  border-color: #343a40;
+  border-width: 3px;
+  width: 9%;
+  font-weight: 600;
+  cursor: pointer;
+  touch-action: manipulation;
+  display: block;
+  background: transparent;
+}
+
+.yaw_current_bearing {
+  left: 82%;
+}
+
+.yaw_target_bearing {
+  left: 56%;
+}
+
+.yaw_target_bearing,
+.yaw_current_bearing {
+  position: fixed;
+  top: 79%;
+  color: red;
+  font-size: larger;
 }

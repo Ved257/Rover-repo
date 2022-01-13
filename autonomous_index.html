@@ -22,7 +22,7 @@
 
   <body id="bg" style="width: 100%; height: 100%">
     <nav class="nav nav-pills nav-fill">
-      <a class="nav-item nav-link" href="index.html">HOME </a>
+      <a class="nav-item nav-link" href="index.html" style="color:white">HOME </a>
       <a class="nav-item nav-link" href="camera_index.html">CAMERA </a>
       <a class="nav-item nav-link" href="control_index.html">CONTROL </a>
       <a class="nav-item nav-link" href="science_index.html">SCIENCE </a>
@@ -39,30 +39,63 @@
       </button>
       <button type="button" id="start" class="btn1 btn-danger">START</button>
     </nav>
-    
+
     <!-- <h1 id="title"><span>Autonomous</span></h1> -->
-    <div>
-      <div class="op">
-        <h3>OUTPUT</h3>
+     <div class="input">
+          <h5 id="in-title">INPUT</h5>
+            <form>
+              <div class="form-group">
+              <label>Latitude</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="lat"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Longitude</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="long"
+                    placeholder="0"
+                  />
+                </div>
+                <input type="submit" value="Submit" id="input_submit">
+              </form>
+     </div>
+    
+     <div class="op">
+        <h3 id="out-title">OUTPUT</h3>
       </div>
       <div class="rover" style="display: inline-block">
-        <img id="rover_compass" src="./compass.jpg" alt="compass for rover">
+        <img id="rover_compass" src="./compass.jpg" alt="compass for rover" />
+         <input type="button" id="rover_btn" value="Current bearing"/>
+         <span class="yaw_target_bearing" id="yaw_target">Yaw:0.0°</span>
         <div class="text">
           <h3>CURRENT BEARING</h3>
         </div>
-        <img id="rover_needle" src="./needle.jpg" alt="needle image">
+        <img id="rover_needle" src="./needle.jpg" alt="needle image" />
         <div class="text1">
           <h3>TARGET BEARING</h3>
         </div>
       </div>
 
       <div class="robotic_arm" style="display: inline-block">
-        <img id="robo_compass" src="./compass.jpg" alt="compass for robotic arm">
-        <img id="robo_needle" src="./needle.jpg" alt="needle image">
+        <img
+          id="robo_compass"
+          src="./compass.jpg"
+          alt="compass for robotic arm"
+        />
+        <img id="robo_needle" src="./needle.jpg" alt="needle image" />
+        <input type="button" id="robo_btn" value="Target bearing"  />
+        <span class="yaw_current_bearing" id="yaw_current">Yaw:0.0°</span>
       </div>
     </div>
   </body>
   <!-- <script src="autonomous_script.js"></script> -->
+  <script src="autonomous_script.js"></script>
   <script src="button.js"></script>
   <script src="three.r119.min.js"></script>
   <script src="vanta.net.min.js"></script>
@@ -84,3 +117,5 @@
     });
   </script>-->
 </html>
+
+
