@@ -39,7 +39,28 @@
       </button>
       <button type="button" id="start" class="btn1 btn-danger">START</button>
     </nav>
+    
     <!-- <h1 id="title"><span>Autonomous</span></h1> -->
+    <div>
+      <div class="op">
+        <h3>OUTPUT</h3>
+      </div>
+      <div class="rover" style="display: inline-block">
+        <img id="rover_compass" src="./compass.jpg" alt="compass for rover">
+        <div class="text">
+          <h3>CURRENT BEARING</h3>
+        </div>
+        <img id="rover_needle" src="./needle.jpg" alt="needle image">
+        <div class="text1">
+          <h3>TARGET BEARING</h3>
+        </div>
+      </div>
+
+      <div class="robotic_arm" style="display: inline-block">
+        <img id="robo_compass" src="./compass.jpg" alt="compass for robotic arm">
+        <img id="robo_needle" src="./needle.jpg" alt="needle image">
+      </div>
+    </div>
   </body>
   <!-- <script src="autonomous_script.js"></script> -->
   <script src="button.js"></script>
@@ -47,7 +68,7 @@
   <script src="vanta.net.min.js"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->
-  <script>
+  <!--<script>
     VANTA.NET({
       el: "#bg",
       mouseControls: true,
@@ -61,5 +82,5 @@
       points: 12.0,
       spacing: 20.0,
     });
-  </script>
+  </script>-->
 </html>
