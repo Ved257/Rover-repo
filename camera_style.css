@@ -33,15 +33,80 @@
   color: black;
 }
 
-#vid {
+#vid0 {
   position: absolute;
-  height: 40%;
+  height: 30%;
   left: 5%;
-  top: 17%;
+  top: 30%;
 }
 
-#mybtn {
+#vid1 {
   position: absolute;
-  top: 11%;
-  left: 7%;
+  height: 30%;
+  left: 30%;
+  top: 30%;
+}
+
+#vid2 {
+  position: absolute;
+  height: 30%;
+  left: 55%;
+  top: 30%;
+}
+
+#vid3 {
+  position: absolute;
+  height: 30%;
+  left: 5%;
+  top: 65%;
+}
+
+#vid4 {
+  position: absolute;
+  height: 30%;
+  left: 30%;
+  top: 65%;
+}
+
+#vid5 {
+  position: absolute;
+  height: 30%;
+  left: 55%;
+  top: 65%;
+}
+
+#mybtn0 {
+  position: absolute;
+  top: 12%;
+  left: 10%;
+}
+
+#mybtn1 {
+  position: absolute;
+  top: 12%;
+  left: 40%;
+}
+
+#mybtn2 {
+  position: absolute;
+  top: 12%;
+  left: 70%;
+}
+
+#mybtn3 {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+#mybtn4 {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+
+#mybtn5 {
+  position: absolute;
+  top: 20%;
+  left: 70%;
 }
