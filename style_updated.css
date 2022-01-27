@@ -1,0 +1,208 @@
+/* body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  /* background: black; */
+/*overflow: hidden;
+} */
+body,
+html {
+  margin: 0;
+  height: 100%;
+  background-color: black;
+}
+#seds_logo,
+#vyadh_logo {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  border-radius: 50% 50% 50% 50%;
+  animation: seds;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+#seds_logo {
+  right: 40px;
+  /* filter: drop-shadow(0 0 0.75rem #4c447a); */
+}
+#vyadh_logo {
+  left: 40px;
+  /* filter: drop-shadow(0 0 0.75rem hsla(30, 2%, 20%, 0.904)); */
+}
+@keyframes seds {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 3%;
+  }
+}
+
+.text-box {
+  /* position: absolute; */
+  position: fixed;
+  left: 30%;
+  top: 10%;
+  font-size: 200%;
+  color: white;
+  animation: seds-buttons;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes seds-buttons {
+  0% {
+    top: -35%;
+  }
+  100% {
+    top: 25%;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.heading span {
+  color: #ff022c;
+  font-weight: 700;
+}
+
+.button span {
+  color: #ff022c;
+}
+.button {
+  display: inline-block;
+  border: 1px solid white;
+  justify-content: center;
+  margin: 3% 1% 1% 3%;
+}
+#btn-camera {
+  padding: 2% 12.2%;
+}
+#btn-autonomous {
+  padding: 2% 5.5%;
+}
+#btn-control,
+#btn-science {
+  padding: 2% 12%;
+}
+
+/*************************** System Offline and System Online **************************/
+.system_online h1,
+.system_offline h1 {
+  color: white;
+  position: fixed;
+  left: 33.5%;
+  top: 10%;
+  font-size: 300%;
+}
+.left_checklist ul,
+.right_checklist ul {
+  list-style-type: none;
+}
+/* Animation for showing offline for 5s and then hiding.*/
+.system_offline h1 {
+  animation: offlineAnimation 0s 5s forwards;
+  visibility: visible;
+  color: red;
+}
+@keyframes offlineAnimation {
+  to {
+    visibility: hidden;
+  }
+}
+
+/*Animation for showing online status after 5s.*/
+.system_online h1 {
+  animation: onlineAnimation 0s 5s forwards;
+  visibility: hidden;
+  color: rgb(0, 245, 0);
+}
+
+@keyframes onlineAnimation {
+  to {
+    visibility: visible;
+  }
+}
+
+/******************************* For checklist **************************/
+.right_checklist,
+.left_checklist {
+  color: red;
+  position: fixed;
+  bottom: 10%;
+  font-size: 130%;
+}
+.left_checklist {
+  left: 20%;
+}
+.right_checklist {
+  left: 60%;
+}
+/*First Three seconds*/
+#antena,
+#back_cam,
+#end_effector_cam,
+#front_cam {
+  animation: first2 0s 3s forwards;
+  color: red;
+}
+@keyframes first2 {
+  to {
+    color: rgb(1, 253, 1);
+  }
+}
+
+/*First Four seconds*/
+#left_wheel,
+#arm_driver1,
+#arm_driver2,
+#arm_driver3 {
+  animation: first2 0s 4s forwards;
+  color: red;
+}
+@keyframes first2 {
+  to {
+    color: rgb(1, 253, 1);
+  }
+}
+
+/*First Five seconds*/
+#ros,
+#right_wheel,
+#science_cam,
+#panaromic_cam,
+#arm_cam {
+  animation: first2 0s 4.8s forwards;
+  color: red;
+}
+@keyframes first2 {
+  to {
+    color: rgb(1, 253, 1);
+  }
+}
+
+.info-buttons {
+  position: absolute;
+  top: 35%;
+  left: 30.5%;
+  text-align: center;
+}
+#b1,
+#b2,
+#b3,
+#b4 {
+  height: 50px;
+  width: 210px;
+  /* color: black; */
+  /* background-color: black; */
+  border-radius: 10px;
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 900;
+  background: #111;
+  opacity: 1;
+  color: white;
+}

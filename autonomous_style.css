@@ -30,6 +30,7 @@
   font-size: 26px;
   font-weight: bolder;
   color: black;
+  border-radius: 8px;
 }
 .rover {
   margin-top: 2%;
@@ -78,24 +79,31 @@ img {
 .text {
   position: absolute;
   top: 23%;
+  font-family: "Times New Roman", Times, serif;
+
   /* bottom: 20%; */
-  right: 6%;
-  background-color: black;
+  right: 6.5%;
+  background-color: rgba(0, 0, 0, 0.897);
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
+  padding-bottom: 1px;
+  text-align: center;
 }
 
 .text1 {
   position: absolute;
   top: 23%;
-
+  font-family: "Times New Roman", Times, serif;
   /* bottom: 20%; */
-  right: 33%;
-  background-color: black;
+  right: 30%;
+  background-color: rgba(0, 0, 0, 0.897);
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .op {
@@ -157,7 +165,7 @@ img {
 }
 
 .yaw_target_bearing {
-  left: 56%;
+  left: 56.5%;
 }
 
 .yaw_target_bearing,
@@ -166,4 +174,12 @@ img {
   top: 79%;
   color: red;
   font-size: larger;
+}
+
+#input_submit {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  width: 120px;
+  border-radius: 10px;
 }

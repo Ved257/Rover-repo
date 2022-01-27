@@ -1,5 +1,5 @@
-<html>
-  <head id="pg">
+<head id="pg">
+    <html>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,13 +22,13 @@
 
   <body id="bg" style="width: 100%; height: 100%">
     <nav class="nav nav-pills nav-fill">
-      <a class="nav-item nav-link" href="index.html" style="color:white">HOME </a>
-      <a class="nav-item nav-link" href="camera_index.html">CAMERA </a>
-      <a class="nav-item nav-link" href="control_index.html">CONTROL </a>
-      <a class="nav-item nav-link" href="science_index.html">SCIENCE </a>
-      <a class="nav-item nav-link active" href="autonomous_index.html"
-        >AUTONOMOUS</a
+      <a class="nav-item nav-link" href="index_updated.html" style="color:white">HOME </a>
+      <a class="nav-item nav-link" href="control_index.html" style="color:white">CONTROL </a>
+      <a class="nav-item nav-link" href="science_index.html" style="color:white">SCIENCE </a>
+      <a class="nav-item nav-link active" href="autonomous_index.html" style="color:white"
+      >AUTONOMOUS</a
       >
+      <a class="nav-item nav-link" href="camera_index.html" style="color:white">CAMERA </a>
       <button
         type="button"
         id="stop"
@@ -71,13 +71,13 @@
       </div>
       <div class="rover" style="display: inline-block">
         <img id="rover_compass" src="./compass.jpg" alt="compass for rover" />
-         <input type="button" id="rover_btn" value="Current bearing"/>
+         <input type="button" id="rover_btn" value="0"/>
          <span class="yaw_target_bearing" id="yaw_target">Yaw:0.0°</span>
-        <div class="text">
+        <div style="padding-top: 5px;"class="text">
           <h3>TARGET BEARING</h3>
         </div>
         <img id="rover_needle" src="./needle.jpg" alt="needle image" />
-        <div class="text1">
+        <div class="text1" style="padding-top: 5px;">
           <h3>CURRENT BEARING</h3>
         </div>
       </div>
@@ -89,7 +89,7 @@
           alt="compass for robotic arm"
         />
         <img id="robo_needle" src="./needle.jpg" alt="needle image" />
-        <input type="button" id="robo_btn" value="Target bearing"  />
+        <input type="button" id="robo_btn" value="0"  />
         <span class="yaw_current_bearing" id="yaw_current">Yaw:0.0°</span>
       </div>
     </div>

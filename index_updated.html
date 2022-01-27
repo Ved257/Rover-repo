@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Vyadh_Title_Page</title>
+    <link rel="stylesheet" href="style_updated.css" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap.min.css"
+      media="all"
+      type="text/css"
+      charset="utf-8"
+    />
+  </head>
+  <body id="bg" style="width: 100%; height: 100%; position: fixed">
+    <div class="seds_logo_image">
+      <img src="images/seds logo.jpg" alt="Seds Logo" id="seds_logo" />
+    </div>
+    <div class="images vyadh_logo_image">
+      <img src="images/vyadh logo.jpg" alt="Vyadh Logo" id="vyadh_logo" />
+    </div>
+    <div class="system_online">
+      <h1>SYSTEMS ONLINE</h1>
+    </div>
+    <div class="system_offline">
+      <h1>SYSTEMS OFFLINE</h1>
+    </div>
+    <div class="text-box">
+      <div class="heading">
+        <span>SEDS</span> VIT PROJECT, TEAM <span>VYADH</span>
+      </div>
+    </div>
+      <!-- <div class="button-wrapper">
+        <div class="button" id="btn-control">
+          <a href="control.html">Control</a>
+        </div>
+        <div class="button" id="btn-camera">
+          <a href="camera.html"><span>Camera</span></a>
+        </div>
+        <br />
+        <div class="button" id="btn-science">
+          <a href="science.html"><span>Science</span></a>
+        </div>
+        <div class="button" id="btn-autonomous">
+          <a href="autonomous.html">Autonomous</a>
+        </div>
+      </div> -->
+      <div class="info-buttons">
+      <div>
+        <a href="control_index.html">
+          <button id="b1" type="button" class="btn btn-outline-light">
+            CONTROL
+          </button>
+        </a>
+        <a href="camera_index.html">
+          <button id="b2" type="button" class="btn btn-outline-light">
+            CAMERA
+          </button>
+        </a>
+      </div>
+      <br />
+      <div>
+        <a href="science_index.html">
+          <button id="b3" type="button" class="btn btn-outline-light">
+            SCIENCE
+          </button>
+        </a>
+        <a href="autonomous_index.html">
+          <button id="b4" type="button" class="btn btn-outline-light">
+            AUTONOMOUS
+          </button>
+        </a>
+      </div>
+    <!-- </div> -->
+    <!-- <video src="images/particles.mp4" autoplay="" muted=""></video> -->
+
+    <div class="checklist">
+      <div class="left_checklist">
+        <ul>
+          <li id="antena">Antena Connection</li>
+          <li id="ros">ROS Master</li>
+          <li id="left_wheel">Left Wheel's Driver</li>
+          <li id="right_wheel">Right Wheel's Driver</li>
+          <li id="science_cam">Science Cam</li>
+          <li id="panaromic_cam">Panaromic Cam</li>
+        </ul>
+      </div>
+      <div class="right_checklist">
+        <ul>
+          <li id="arm_driver1">Arm Driver 1</li>
+          <li id="arm_driver2">Arm Driver 2</li>
+          <li id="arm_driver3">Arm Driver 3</li>
+          <li id="end_effector_cam">End Effector Cam</li>
+          <li id="arm_cam">Arm Cam</li>
+          <li id="front_cam">Front Cam</li>
+        </ul>
+      </div>
+    </div>
+    
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"
+    integrity="sha512-yNJzAsg5JyP91u+sLHlUDULMBd3hmEiVkYeeN1cQBKaLZ7EyT6oH2u5THNIRM2Fu6VKcZJv+F/QAp1h/qzy9Ow=="
+    crossorigin="anonymous"
+    ></script>
+    <!-- <script src="JS/script_index.js"></script> -->
+    <script src="three.r119.min.js"></script>
+    <script src="vanta.net.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->
+      <!-- <script>
+        VANTA.NET({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          // minHeight: 560.00,
+          // minWidth: 500.00,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0xffffff,
+          points: 5.0,
+          spacing: 20.0,
+          backgroundColor: 0x0,
+          points: 25.0,
+          maxDistance: 13.0,
+          spacing: 15.0,
+          showDots: false,
+        });
+      </script> -->
+      <script  src="p5.min.js"></script>
+      <script  src="vanta.topology.min.js"></script>
+      <script >
+        VANTA.TOPOLOGY({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          //   color: 0xe3e3db,
+          //   backgroundColor: 0x51616
+          // color: 0x292a57,
+          backgroundColor: 0x2020c,
+          color: 0x3434b6,
+          // color: 0x555557,
+          //   backgroundColor: 0xc0c22
+        })
+</script>
+</body>
+</html>

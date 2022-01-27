@@ -7,6 +7,7 @@ if (typeof (document) !== "undefined") {
 //     function rotate(needle,angle){
 //       needle.style.transform=`rotate(${angle}deg)`;
 //    }
+    
     function rot1(btn){
        if(event.key==='Enter'){
            rover_needle.style.transform=`rotate(${btn.value}deg)`;

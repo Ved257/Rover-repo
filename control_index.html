@@ -22,11 +22,11 @@
 
   <body id="bg" style="width: 100%; height: 100%">
     <nav class="nav nav-pills nav-fill">
-      <a class="nav-item nav-link" href="index.html" style="color:white">HOME</a>
-      <a class="nav-item nav-link" href="camera_index.html">CAMERA</a>
-      <a class="nav-item nav-link active" href="control_index.html">CONTROL</a>
-      <a class="nav-item nav-link" href="science_index.html">SCIENCE</a>
-      <a class="nav-item nav-link" href="autonomous_index.html">AUTONOMOUS</a>
+      <a class="nav-item nav-link" href="index_updated.html" style="color:white">HOME</a>
+      <a class="nav-item nav-link active" href="control_index.html" style="color:white">CONTROL</a>
+      <a class="nav-item nav-link" href="science_index.html" style="color:white">SCIENCE</a>
+      <a class="nav-item nav-link" href="autonomous_index.html" style="color:white">AUTONOMOUS</a>
+      <a class="nav-item nav-link" href="camera_index.html" style="color:white">CAMERA</a>
       <button
         type="button"
         id="stop"
@@ -42,7 +42,7 @@
       <div class="rover" style="display: inline-block">
         <img id="rover_compass" src="./compass.jpg" alt="compass for rover" />
         <img id="rover_needle" src="./needle.jpg" alt="needle image" />
-        <input type="number" id="rover_btn" placeholder="Rover" onkeydown="rot1(this)"/>
+        <input type="number" id="rover_btn" placeholder="Rover" style="text-align: center" value="75" onkeydown="rot1(this)"/>
       </div>
 
       <div class="robotic_arm" style="display: inline-block">
@@ -52,7 +52,7 @@
           alt="compass for robotic arm"
         />
         <img id="robo_needle" src="./needle.jpg" alt="needle image" />
-        <input type="number" id="robo_btn" placeholder="Robotic_arm" onkeydown="rot2(this)" />
+        <input type="number" id="robo_btn" placeholder="Robotic_arm" style="text-align: center" value="98" onkeydown="rot2(this)" />
       </div>
     </div>
     <div class="container">

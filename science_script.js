@@ -36,6 +36,7 @@ if (typeof (document) !== "undefined") {
     function displayGraph(){
         if(lgraph.style.display==='none'){
             lgraph.style.display='block';
+            lgraph.scrollIntoView({behavior: 'smooth'});
         }
         else{
             lgraph.style.display='none';
