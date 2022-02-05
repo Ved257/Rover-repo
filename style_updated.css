@@ -5,11 +5,14 @@
   /* background: black; */
 /*overflow: hidden;
 } */
+#bg {
+  background: #111;
+}
 body,
 html {
   margin: 0;
   height: 100%;
-  background-color: black;
+  background: black;
 }
 #seds_logo,
 #vyadh_logo {
@@ -17,8 +20,9 @@ html {
   height: 200px;
   width: 200px;
   border-radius: 50% 50% 50% 50%;
+  animation-delay: 3s;
   animation: seds;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 #seds_logo {
@@ -46,7 +50,7 @@ html {
   font-size: 200%;
   color: white;
   animation: seds-buttons;
-  animation-duration: 2s;
+  animation-duration: 3s;
   animation-fill-mode: forwards;
 }
 @keyframes seds-buttons {

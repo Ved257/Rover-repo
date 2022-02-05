@@ -8,18 +8,21 @@ if (typeof (document) != "undefined") {
         });
     const button=document.getElementById("mybtn0");
     const vid=document.getElementById("vid0");
+    
     button.onclick=function(){
         if(vid.style.display!=="none"){
-            // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
+
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
         }
     };
 
 }
-
 if (typeof (document) != "undefined") {
     navigator.mediaDevices
         .getUserMedia({
@@ -34,9 +37,13 @@ if (typeof (document) != "undefined") {
         if(vid.style.display!=="none"){
             // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
+
         }
     };
 
@@ -56,9 +63,14 @@ if (typeof (document) != "undefined") {
         if(vid.style.display!=="none"){
             // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
+
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
+
         }
     };
 
@@ -78,9 +90,13 @@ if (typeof (document) != "undefined") {
         if(vid.style.display!=="none"){
             // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
+
         }
     };
 
@@ -100,9 +116,13 @@ if (typeof (document) != "undefined") {
         if(vid.style.display!=="none"){
             // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
+
         }
     };
 
@@ -122,9 +142,13 @@ if (typeof (document) != "undefined") {
         if(vid.style.display!=="none"){
             // vid.removeAttribute('autoplay');
             vid.style.display="none";
+            button.style.backgroundColor="#c4c9e6";
+
         }
         else{
             vid.style.display="block";
+            button.style.backgroundColor="rgb(80, 228, 80)";
+
         }
     };
 

@@ -37,77 +37,113 @@
 #vid0 {
   position: absolute;
   height: 30%;
-  left: 5%;
+  left: 6%;
   top: 30%;
 }
 
 #vid1 {
   position: absolute;
   height: 30%;
-  left: 30%;
+  left: 37%;
   top: 30%;
 }
 
 #vid2 {
   position: absolute;
   height: 30%;
-  left: 55%;
+  left: 67%;
   top: 30%;
 }
 
 #vid3 {
   position: absolute;
   height: 30%;
-  left: 5%;
+  left: 6%;
   top: 65%;
 }
 
 #vid4 {
   position: absolute;
   height: 30%;
-  left: 30%;
+  left: 37%;
   top: 65%;
 }
 
 #vid5 {
   position: absolute;
   height: 30%;
-  left: 55%;
+  left: 67%;
   top: 65%;
 }
 
 #mybtn0 {
   position: absolute;
   top: 12%;
-  left: 10%;
+  left: 12%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
 
 #mybtn1 {
   position: absolute;
   top: 12%;
-  left: 40%;
+  left: 42%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
 
 #mybtn2 {
   position: absolute;
   top: 12%;
-  left: 70%;
+  left: 72%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
 
 #mybtn3 {
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 12%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
 
 #mybtn4 {
   position: absolute;
   top: 20%;
-  left: 40%;
+  left: 42%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
 
 #mybtn5 {
   position: absolute;
   top: 20%;
-  left: 70%;
+  left: 72%;
+  border-radius: 8px;
+  font-weight: bold;
+  height: 40px;
+  width: 100px;
+  font-size: x-large;
+  background-color: #c4c9e6;
 }
